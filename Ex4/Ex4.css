@@ -1,0 +1,50 @@
+p.dummy
+{
+	border-style: solid;
+	border-radius: 5px;
+}
+
+h1
+{
+	border-style: solid;
+	border-radius: 5px;
+}
+
+div {
+    display: block;
+}
+
+@media (min-width: 601px)
+.col.m {
+    width: 33.33333%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.center {
+    text-align: center!important;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+
+.col {
+    float: left;
+}
+
+.m3 {
+	width: 30%;
+}
+
+.m4 {
+	width: 20%;
+}
+
+.container:after, .container:before, .panel:after, .panel:before, .row:after, .row:before {
+    content: "";
+    display: table;
+    clear: both;
+}

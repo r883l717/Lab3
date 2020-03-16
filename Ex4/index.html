@@ -1,0 +1,68 @@
+<html>
+    <head>
+      <script type="text/javascript"
+               src="Ex4.js">
+      </script>
+	  <link href="Ex4.css"
+		rel="stylesheet"
+		type="text/css">
+    </head>
+
+    <body>
+      <div class="container">
+      <div class="row container">
+	  <p class="dummy" id="text">
+      But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee.
+	  </p>
+	  </div>
+	  <div class="row container">
+	  <p align="center">Border</p>
+	  <div class="col m4 container center">
+      <p>Red(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideRed1" name="slideRed" value="0" min="0" max="255">
+      <input onchange="input()" oninput="input()" type="text" id="valRed1" name="valRed1" value="0">
+	  </div>
+	  <div class="col m4 container center">
+      <p>Green(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideGreen1" name="slideGreen" value="0" min="0" max="255">
+	  <input onchange="input()" oninput="input()" type="text" id="valGreen1" name="valGreen1" value="0">
+	  </div>
+	  <div class="col m4 container center">
+      <p>Blue(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideBlue1" name="slideBlue" value="0" min="0" max="255">
+	  <input onchange="input()" oninput="input()" type="text" id="valBlue1" name="valBlue1" value="0">
+	  </div>
+	  <div class="col m4 container center">
+      <p>Width</p>
+	  <input onchange="change()" oninput="change()" type="range" id="slideWidth" name="slideWidth" value="3" min="0" max="100">
+      <input onchange="input()" oninput="input()" type="text" id="valWidth" name="valWidth" value="3">
+	  </div>
+	  </div>
+	  <div class="row container">
+	  <p align="center">Background</p>
+	  <div class="col m4 container center">
+      <p>Red(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideRed2" name="slideRed" value="255" min="0" max="255">
+      <input onchange="input()" oninput="input()" type="text" id="valRed2" name="valRed1" value="255">
+	  </div>
+	  <div class="col m4 container center">
+      <p>Green(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideGreen2" name="slideGreen" value="255" min="0" max="255">
+	  <input onchange="input()" oninput="input()" type="text" id="valGreen2" name="valGreen1" value="255">
+	  </div>
+	  <div class="col m4 container center">
+      <p>Blue(0-255)</p>
+      <input onchange="change()" oninput="change()" type="range" id="slideBlue2" name="slideBlue" value="255" min="0" max="255">
+	  <input onchange="input()" oninput="input()" type="text" id="valBlue2" name="valBlue1" value="255">
+	  </div>
+	  <div class="col m4 container center">
+      <h1 id="Exp">Text</h1>
+      </div>
+	  </div>
+	  <div class="row container center">
+	  <br>
+      <button type="button" onclick="Ex4()">Change</button>
+	  </div>
+ 	  </div>
+    </body>
+</html>
